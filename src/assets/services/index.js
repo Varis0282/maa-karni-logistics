@@ -1,0 +1,9 @@
+export { default as packing } from './packing.png';
+export { default as yard } from './yard.png';
+export { default as logistics1 } from './logistics-1.png';
+export { default as consult } from './consult.png';
+export { default as shipping } from './shipping.png';
+export { default as transportation } from './transportation.png';
+export { default as record } from './record.png';
+export { default as vendor } from './vendor.png';
+export { default as port } from './port.png';
