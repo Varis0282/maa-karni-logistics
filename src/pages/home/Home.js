@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, PageWIthNavbar, Services } from '../../component'
+import { Carousel, PageWIthNavbar, Products, Services } from '../../component'
 import Lottie from 'lottie-react';
 import { Home1 } from '../../assets';
 import { Link } from 'react-router-dom';
@@ -34,6 +34,7 @@ const Home = () => {
                     </div>
                 </div>
                 <Services showNav={false} />
+                <Products />
             </div>
         </PageWIthNavbar>
     )
