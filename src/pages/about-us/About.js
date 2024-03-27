@@ -3,6 +3,7 @@ import { PageWIthNavbar } from '../../component'
 import Lottie from 'lottie-react'
 import { Home1 } from '../../assets'
 import { missionCompass, qualityAssuranceTesting, images } from '../../assets'
+import { Footer } from '../../component/footer'
 
 const About = () => {
     const content = [
@@ -34,7 +35,7 @@ const About = () => {
                                 <span className='text-black'>MAA KARNI LOGISTICS</span>
                             </p>
                             <p className='text-[#707070] text-[14px]'>
-                                Maa Karni Logistics, a Rs.100 Cr Company, was established in 2011. With a Vision to provide end to end global supply chain management solutions to the Indian industries.
+                                Maa Karni Logistics, a Rs.100 Cr Company, was established in 2006. With a Vision to provide end to end global supply chain management solutions to the Indian industries.
                                 <br />
                                 <br />
                                 Our national footprint consists of strategically located facilities in India with Regional offices and Branch Offices,
@@ -44,10 +45,10 @@ const About = () => {
                                 Our commitment as a leading 3PL, 3PP/4PL supply chain management provider allows us to build excellent partnerships with clients.
                                 <br />
                                 <br />
-                                A growing awareness that competitive advantage comes from Logistiks management as much as from the product has been instrumental in upgrading Logistiks from its traditional backroom function to a strategic boardroom function. G L Logistiks helps in gaining same competitive advantage by providing more Reliability, Flexibility and compliance in Logistiks.
+                                A growing awareness that competitive advantage comes from Logistiks management as much as from the product has been instrumental in upgrading Logistiks from its traditional backroom function to a strategic boardroom function. Maa Karni Logistiks helps in gaining same competitive advantage by providing more Reliability, Flexibility and compliance in Logistiks.
                                 <br />
                                 <br />
-                                G L Logistiks as a Logistiks partner will focus on improving Processes, Productivity, Waste elimination and Meeting Client Standards.
+                                Maa Karni Logistiks as a Logistiks partner will focus on improving Processes, Productivity, Waste elimination and Meeting Client Standards.
                             </p>
                         </div>
                         <div className="flex w-1/2 items-baseline justify-end pt-28">
@@ -76,6 +77,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </PageWIthNavbar>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { packing, yard, logistics1, consult, shipping, transportation, record, vendor, port } from '../../assets';
 import { PageWIthNavbar } from '../pagewithNavbar';
+import { Footer } from '../footer';
 
 
 const Services = ({ showNav = true }) => {
@@ -36,6 +37,7 @@ const Services = ({ showNav = true }) => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </PageWIthNavbar>
         )
     }
